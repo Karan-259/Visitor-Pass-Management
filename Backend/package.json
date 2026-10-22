@@ -1,0 +1,21 @@
+{
+  "name": "visitor-pass_management",
+  "version": "1.0.0",
+  "description": "Visitor Pass Management System should allow organizations to register, issue, and verify visitor passes digitally",
+  "license": "ISC",
+  "author": "Karan Rai",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start",
+    "dev": "nodemon dev"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
