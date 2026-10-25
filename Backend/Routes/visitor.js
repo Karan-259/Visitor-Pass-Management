@@ -3,7 +3,7 @@ const { createVisitor, getAllVisitors, getSingleVisitor, updateVisitor, deleteVi
 
 const router = express.Router();
 
-router.post("/api/visitors", createVisitor);
+router.post("/", createVisitor);
 
 router.get("/api/visitors", getAllVisitors);
 
