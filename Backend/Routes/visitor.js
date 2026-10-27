@@ -5,12 +5,12 @@ const router = express.Router();
 
 router.post("/", createVisitor);
 
-router.get("/api/visitors", getAllVisitors);
+router.get("/", getAllVisitors);
 
-router.get("/api/visitors/:id", getSingleVisitor);
+router.get("/:id", getSingleVisitor);
 
-router.put("/api/visitors/:id", updateVisitor);
+router.put("/:id", updateVisitor);
 
-router.delete("/api/visitors/:id", deleteVisitor);
+router.delete("/:id", deleteVisitor);
 
 module.exports = router;
